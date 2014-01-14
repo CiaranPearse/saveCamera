@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>webRTC test</title>
+        <link href="styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+
+        <div id="container">
+        
+            <video id="webcam"></video>
+        
+            <canvas id="feed"></canvas>
+
+            <div class="video block">
+                <h2>Your Webcam</h2>
+                <canvas id="display"></canvas>
+            </div>
+
+            <div class="photonosave block">
+                <h2>Your Photo (unsavible)</h2>
+                <canvas id="photo"></canvas>
+            </div>
+
+            <div class="photosave block">
+                <h2>Your Photo (savible)</h2>
+                <img id="canvasImg" alt="Right click to save once photo is captured">
+            </div>
+
+            <div id="clearboth"></div>
+        </div>
+        <div id="savebtn">
+            <button type="button" id="takePhoto">Generate Photo</button>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

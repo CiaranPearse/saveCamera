@@ -1,0 +1,74 @@
+/* webrtc style file */
+body {
+    font: normal 100%/1.6 helvetica, arial, sans-serif;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#webcam,
+#feed {
+    display: none;
+}
+
+#clearboth{
+	clear: both;
+}
+#container{
+	width: 100%;
+	margin: 0 auto;
+}
+.video, .photonosave, .photosave{
+	float: left;
+}
+.block{
+	margin-left: 10px;
+	width: 320px;
+	height: 286px;
+	border: 3px solid black;
+}
+
+.block h2{
+	margin: 0px;
+	background-color: black;
+	padding: 4px;
+	color: white;
+	text-align: center;
+}
+
+
+img#canvasImg{
+	width: 320px;
+	height: 240px;
+}
+
+#savebtn{
+	text-align: center;
+	margin: 0 auto;
+}
+
+#takePhoto{
+	display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.428571429;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+       -o-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+	cursor: pointer;
+	padding: 6px;
+	color: white;
+	font-weight: bold;
+	background-color: #3276B1;
+	border: 1px solid #285E8E;
+}
